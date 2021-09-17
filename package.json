@@ -1,0 +1,18 @@
+{
+    "name": "test-nativesec",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "concurrently \"npm run app\" \"npm run chromedriver\"",
+        "app": "node src/index.js",
+        "chromedriver": "./chromedriver"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^6.2.1",
+        "selenium-webdriver": "^4.0.0-rc-1"
+    }
+}
